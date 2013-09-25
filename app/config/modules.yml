@@ -1,0 +1,6 @@
+# Fichier de définition des modules
+
+Pegase: Pegase\PegaseModule
+Demo:   Demo\DemoModule
+
+

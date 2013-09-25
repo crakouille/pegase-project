@@ -1,0 +1,9 @@
+############################
+# Symfony2 SHELL COMMANDS  #
+############################
+
+:
+  import: 
+    module: Pegase
+    file: Config/shell.yml
+

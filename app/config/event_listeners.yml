@@ -1,0 +1,7 @@
+#listener_test:
+#  class:      Demo\Demo\EventListeners\TestListener
+#  method:     methode_test
+#  event:      pegase.core.event:pre_call
+#  parameters: ~
+
+

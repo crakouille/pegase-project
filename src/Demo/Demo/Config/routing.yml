@@ -1,0 +1,5 @@
+homepage:
+  pattern: /
+  controller: \Demo\Demo\Controllers\DemoController
+  method: index
+

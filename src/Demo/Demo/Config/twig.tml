@@ -1,0 +1,8 @@
+# Définition des extensions
+
+#test_extensions:
+#  import: src/Pegase/External/Template/Twig/Config/twig.yml
+#
+#path:
+#  class: \Pegase\External\Template\Twig\Extensions\Path\Path
+#

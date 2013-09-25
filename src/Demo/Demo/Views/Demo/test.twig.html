@@ -1,0 +1,13 @@
+{% extends "src/Demo/Demo/Views/layout.twig.html" %}
+
+{% block body %}
+testazeaz
+
+<a href="{{ route('homepage') }}">test</a>
+
+{{ path("test.html") }}
+<br />
+{{ route('ma_seconde_route', {'id' : '32', 'test' : 'kikoo'}) }}
+
+{% endblock %}
+

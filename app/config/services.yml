@@ -1,0 +1,10 @@
+# Services.yml:
+#
+# This file allows you to load services before any controller call
+# 
+
+ngframework:
+  import: 
+    module: Pegase
+    file: Config/services.yml
+

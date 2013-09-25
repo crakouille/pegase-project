@@ -1,0 +1,4 @@
+demo_demo:
+  import: src/Demo/Demo/Config/routing.yml
+  prefix:  /
+
