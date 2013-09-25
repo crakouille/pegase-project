@@ -3,3 +3,5 @@
 /app/logs
 /web/assets
 composer.lock
+composer.phar
+
