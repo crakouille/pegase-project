@@ -1,9 +1,14 @@
+<!doctype html>
 <html>
   <header>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{{ path('assets/design/design.css') }}">
   </header>
 
-  <body style="background-color: rgb(180, 210, 255)">
-    {% block body %} {% endblock %}
+  <body>
+    <div id="wrapper">
+      {% block body %}{% endblock %}
+    </div>
   </body>
 </html>
+

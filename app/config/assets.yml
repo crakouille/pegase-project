@@ -1,0 +1,15 @@
+# syntaxe:
+##########
+#assets_name:
+#  source_path: src/path/to/assets
+#  dest_path: web/assets/design
+#
+
+my_assets:
+  source_path: src/Demo/Demo/Assets
+  dest_path: web/assets/design
+
+pegase_assets:
+  source_path: vendor/nativgames/pegase/src/Pegase/Core/Application/Assets
+  dest_path: web/tmp_pegase
+
