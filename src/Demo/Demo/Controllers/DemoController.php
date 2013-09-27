@@ -3,8 +3,9 @@
 namespace Demo\Demo\Controllers;
 
 use \Pegase\Core\Response\Object\Response;
+use Pegase\Core\Controller\Objects\ControllerInterface;
 
-class DemoController {
+class DemoController implements ControllerInterface {
 
   private $sm;
 
