@@ -1,8 +1,18 @@
+* {  
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 body {
   background-color: rgb(180, 210, 255);
 }
 
 div#wrapper {
-  background-color: rgb(155, 255, 80);
+  background-color: rgb(150, 190, 235);
+
+  width: 700px;
+  margin: 0 auto 0 auto;
 }
 
+#title {
+  text-align: center;
+}
