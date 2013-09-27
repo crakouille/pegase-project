@@ -11,7 +11,13 @@ Résumé:
 =======
 
 `curl -sS https://getcomposer.org/installer | php`
-`php composer.phar create-project nativgames/pegase-project ici 1.0.x-dev`
+`php composer.phar create-project nativgames/pegase-project ici 1.1.x-dev`
+
+Versions
+========
+
+1.1.x-dev
+1.0
 
 Commandes utiles:
 =================
