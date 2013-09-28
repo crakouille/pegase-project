@@ -3,13 +3,22 @@
 #assets_name:
 #  source_path: src/path/to/assets
 #  dest_path: web/assets/design
+# 
+# OR
 #
+#assets_name:
+#  module: My/Module/Name
+#  src_dir: Assets 
+#  dest_path: web/assets/design
 
 my_assets:
-  source_path: src/Demo/Demo/Assets
+  module: Demo/Demo
+  source_path: Assets
   dest_path: web/assets/design
 
 pegase_assets:
-  source_path: vendor/nativgames/pegase/src/Pegase/Core/Application/Assets
+  module: Pegase/Core/Application
+  source_path: Assets
+#  source_path: vendor/nativgames/pegase/src/Pegase/Core/Application/Assets
   dest_path: web/tmp_pegase
 

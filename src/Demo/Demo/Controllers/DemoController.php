@@ -2,7 +2,7 @@
 
 namespace Demo\Demo\Controllers;
 
-use \Pegase\Core\Response\Object\Response;
+use Pegase\Core\Http\Response\Response;
 use Pegase\Core\Controller\Objects\ControllerInterface;
 
 class DemoController implements ControllerInterface {
