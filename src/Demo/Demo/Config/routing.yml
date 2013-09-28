@@ -3,3 +3,8 @@ homepage:
   controller: \Demo\Demo\Controllers\DemoController
   method: index
 
+form_test:
+  pattern: /form
+  controller: \Demo\Demo\Controllers\DemoController
+  method: form_test
+

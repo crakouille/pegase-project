@@ -8,7 +8,7 @@
         "twig/twig": "1.*",
         "mustangostang/spyc" : "0.5.1",
 
-	      "nativgames/pegase" : "1.1.*@dev"
+	      "nativgames/pegase" : "1.0.1"
     },
     "minimum-stability": "dev",
     "extra": {

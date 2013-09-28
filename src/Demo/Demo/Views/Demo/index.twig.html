@@ -3,9 +3,13 @@
 {% block body %}
 
 Page de démo. <br />
-Vous devriez créer un module et supprimer le module de base nommé /Demo.
+Vous devriez créer un module et supprimer le module de base nommé /Demo. <br />
+<br />
 
-{# {{ route('ma_route', {'nom_var' : '42'}) }} #}
+Pages disponibles:
+<ul>
+  <li><a href="{{ route('form_test') }}">Page avec un formulaire</a></li>
+</ul>
 
 {% endblock %}
 

@@ -17,11 +17,33 @@ class DemoController implements ControllerInterface {
     $response = new Response();
     $twig = $this->sm->get('pegase.component.template.twig');
 
-    $this->sm->get('pegase.core.module_manager')->get_file("Demo/Demo", "test");
-
     $response->write(
       $twig->render(
         'src/Demo/Demo/Views/Demo/index.twig.html'
+      )
+    );
+
+    return $response;
+  }
+
+  public function form_test() {
+    $response = new Response();
+    $twig = $this->sm->get('pegase.component.template.twig');
+    $router = $this->sm->get('pegase.core.router');
+
+    $form = new \Pegase\Security\Form\Objects\Form('form');
+
+    $form->add('ma_chaine', 'string')
+         ->add('ma_textarea', 'text')
+         ->add('submit', 'submit', array('value' => 'send'));
+
+    $formView = $form->generate();
+
+    $response->write(
+      $twig->render(
+        'src/Demo/Demo/Views/Demo/form_test.twig.html', array(
+          'form' => $formView
+        )
       )
     );
 
