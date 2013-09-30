@@ -6,10 +6,8 @@
 Voir comment créer un formulaire avec la classe \Pegase\Security\Form\Objects\Form.
 <br /><br />
 {{ form.begin() | raw }}
-{{ form.input('ma_chaine', {value : 'valeur de base'}) | raw }} <br />
-
-{{ form.input_begin('ma_textarea') | raw }}
-Texte de base{{ form.input_end('ma_textarea') | raw }} <br />
+{{ form.input('ma_chaine', {placeholder : 'chaine'}) | raw }} <br />
+{{ form.input('ma_textarea') | raw }}<br />
 
 {{ form.input('submit') | raw }}
 {{ form.end() | raw }}
