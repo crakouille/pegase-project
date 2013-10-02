@@ -4,7 +4,7 @@ Pegase Project
 Voici le projet par défault de pégase.
 
 Pour l'utiliser, installez composer depuis http://getcomposer.org/ 
-et exécutez la commande `php composer.phar create-project nativgames/pegase-project ici 1.0.x-dev`
+et exécutez la commande `php composer.phar create-project nativgames/pegase-project ici 1.2`
 
 Ensuite il faut exécuter `php app/shell.php assets:install` pour créer les liens symboliques des dossiers pour les assets.
 
