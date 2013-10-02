@@ -1,4 +1,6 @@
 # Fichier de définition des modules
 
 Pegase: Pegase\PegaseModule
+Pegase-external-twig: Pegase\External\Twig\TwigModule
+
 Demo:   Demo\Demo\DemoModule
