@@ -1,0 +1,15 @@
+path:
+  type: function
+  class: \Pegase\External\Twig\Extensions\Path\PathFunction
+  method: fn
+
+route:
+  type: function
+  class: \Pegase\External\Twig\Extensions\Router\RouteFunction
+  method: fn
+
+render:
+  type: function
+  class: \Pegase\External\Twig\Extensions\Controller\RenderFunction
+  method: fn
+
